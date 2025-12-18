@@ -67,30 +67,8 @@ margin: auto;
     margin-top: 20px;
     width: 930px;
 }
-.hero-services{
-    margin-left: -60px;
-    margin-right: -60px;
-    padding: 20px 0;
-    border-radius: 12px;
-    background-color: #0F0F0F;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap:10px;
-    margin-top: 90px;
-}
-.hero-services span{
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
-    color:#676665;
-}
-.hero-services .dot{
-    width: 7px;
-    height: 7px;
-    color:#CE7D63;
-    margin-left: 40px;
-}
+
+
 .hero-right{
     border-radius: 14px;
 }
@@ -164,6 +142,18 @@ right: 4%;
     justify-content: center;
     align-items: center;
     gap:5px;
+}
+.hero-stats .stat-item:last-child{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    height: 182px;
+}
+.hero-stats .stat-item:last-child .stat-label{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    color:#B3B3B2;
 }
 .stat-label{
     font-weight: 500;
