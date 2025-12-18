@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  
 }
 
 body {
@@ -40,12 +40,8 @@ body {
   color: #ccc;
   margin-left: 20px;
   text-decoration: none;
-  transition: .2s;
 }
 
-.nav a:hover {
-  color: #fff;
-}
 
 .btn {
   background: #e49b72;
