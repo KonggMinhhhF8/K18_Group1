@@ -141,9 +141,7 @@ textarea {
     cursor: pointer;
     border: none;
     font-weight: bold;
-    transition: 0.3s;
+    
 }
 
-.send-btn:hover {
-    opacity: 0.9;
-}
+
