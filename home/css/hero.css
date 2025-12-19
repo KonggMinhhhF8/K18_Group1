@@ -133,7 +133,7 @@ right: 4%;
     gap: 20px;
 }
 .stat-item{
-    width: calc(100% / 6);
+    width: calc((100% - 20px * 5) / 6);
     border-radius: 14px;
     background-color: #1a1a1a;
     padding: 30px 20px;
@@ -167,4 +167,114 @@ right: 4%;
     line-height: 150%;
     font-size: 60px;
     color: #DA9E8B;
+}
+/* tablet */
+@media screen and (min-width:768px) and (max-width:991.98px){
+.hero-left{
+    width: 54%;
+    padding:40px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.hero-title{
+    font-size: 27px;
+}
+.cta-bounder img{
+    width: 40px;
+    height: 40px;
+}
+.cta-icon{
+    width: 25px;
+    height: 25px;
+    top: 14%;
+    left: 24%;
+}
+.cta-icon img {
+    width: 15px;
+    height: 15px;
+    top:5px;
+    left: 6px;
+
+}
+.cta-text{
+    font-size: 11px;
+}
+.cta-bounder{
+    top:5px;
+}
+.hero-desc {
+    font-size: 12px;
+    width: 100%;
+
+}
+.marquee {
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-top: 20px;
+}
+.marquee__content {
+
+    padding: 10px 0;
+}
+.marquee__item {
+
+    font-size: 16px;
+
+}
+.project-action > img{
+    width: 70px;
+}
+.project-action {
+    top: 1%;
+    right: 3%;
+}
+.project-action__icon {
+
+    width: 60px;
+    height: 60px;
+
+    top: 11%;
+    left: 24%;
+}
+.project-action__icon img{
+    width: 30px;
+    top:23%;
+    left: 26%;
+}
+.project-info h3 {
+    font-size: 20px;
+}
+.project-info span {
+    font-size: 14px;
+}
+.hero-stats {
+    padding: 10px;
+    gap: 10px;
+}
+.stat-item{
+padding: 20px 10px;
+    width: calc((100% - 10px * 5) / 6);
+
+}
+.stat-label {
+    font-size: 12px;
+}
+.stat-number{
+    font-size: 40px;
+}
+.btn-arrow-top-right {
+    padding: 11px 15px;
+}
+.btn-arrow-top-right img{
+    width: 11px;
+    height: 15px;
+}
+.hero-stats .stat-item:last-child .stat-label{
+    font-size: 9px;
+}
+.hero-stats .stat-item:last-child{
+    height: 123px;
+}
+
 }
