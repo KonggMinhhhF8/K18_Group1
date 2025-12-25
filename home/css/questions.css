@@ -13,7 +13,7 @@
 }
 .faq-item{
     border-radius: 16px;
-    padding: 60px;
+    padding: 40px 60px;
     background-color: #1a1a1a;
 }
 .faq-item:hover{
@@ -132,6 +132,7 @@
     resize: none;
 }
 .form-group input, .form-group textarea{
+      font-family: "Roboto Flex", sans-serif;
     border-radius: 10px;
     padding: 24px;
     background-color: #0F0F0F;
@@ -152,4 +153,87 @@
     border:none;
     outline:none;
     cursor: pointer;
+}
+@media screen and (min-width:768px) and (max-width:991.98px){
+.faq{
+    margin-top: 5px;
+}
+.faq-layout{
+    gap: 5px;
+}
+.faq-list{
+    gap: 5px;
+}
+.faq-item{
+    padding: 30px;
+    border-radius: 7px;
+}
+.faq-toggle-1, .faq-toggle-2{
+    padding: 1px 4px;
+}
+.faq-toggle-1 img, .faq-toggle-2 img{
+    width: 12px;
+}
+.faq-question h3{
+    font-size: 9px;
+}
+.faq-form{
+    width: 42.4%;
+    padding: 30px;
+    gap: 40px;
+    border-radius: 7px;
+}
+.faq-answer{
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.faq-answer p{
+    font-size: 9px;
+}
+.faq-form-title{
+    font-size: 12px;
+}
+.form-group label{
+    font-size: 9px;
+}
+.form-group input, .form-group textarea{
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 9px;
+}
+.btn-form {
+    margin-top: 14px;
+    border-radius: 5px;
+    padding: 14px 17px;
+    background-color: #CE7D63;
+    color: #0F0F0F;
+    font-weight: 500;
+    font-size: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+}
+@media screen and (max-width:767.98px){
+.faq-item{
+    padding: 30px;
+}
+.faq-layout{
+    flex-direction: column;
+}
+.faq-question h3{
+    font-size: 16px;
+}
+.faq-toggle-1, .faq-toggle-2 {
+padding: 10px 12px;
+}
+.faq-form{
+    width: 100%;
+    border-radius: 12px;
+    padding: 30px;
+    gap: 20px;
+}
+.btn-form{
+    margin-top: 15px;
+}
 }

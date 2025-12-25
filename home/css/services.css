@@ -12,6 +12,10 @@
 .service-card{
     width: calc((100% - 20px ) / 2);
 }
+.service-card.hide-on-pc-and-tablet{
+    display: none;
+}
+
 .card-content___header-left{
     display: flex;
     align-items: center;
@@ -49,4 +53,70 @@
 }
 .card-title--services{
     height: auto;
+}
+@media screen and (min-width:768px) and (max-width:991.98px){
+.services{
+    gap:5px;
+    padding: 5px;
+    margin-top: 60px;
+    border-radius: 12px;
+    margin-bottom: 60px;
+}
+.service-card {
+    width: calc((100% - 5px) / 2);
+}
+.card-content___header-left img {
+    border-radius: 5px;
+    border: 1px solid #333333;
+    padding: 2px;
+    width: 24px;
+}
+.btn-arrow-top-right--services{
+    padding: 2px 6px;
+}
+.text-side-btn--services{
+    font-size: 10px;
+}
+.card-desc--services {
+margin-top: 25px;
+}
+.price{
+    font-size: 10px;
+    margin-top: 20px;
+}
+.card-grid .service-card:last-child .price{
+    padding-top: 12px;
+}
+}
+@media screen and (max-width:767.98px){
+    .services{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+.service-card{
+    width: 100%;
+}
+
+.service-card--mobile .price{
+    text-align: left;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.service-card--mobile .card-desc{
+    margin-top: 0;
+    font-size: 12px;
+}
+.service-card--mobile .btn-services{
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: #CE7D63;
+    padding: 14px 20px;
+    color: #0F0F0F;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.service-card.hide-on-pc-and-tablet{
+    display: block;
+}
 }

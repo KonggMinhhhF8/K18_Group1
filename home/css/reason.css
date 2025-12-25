@@ -15,7 +15,7 @@
 
 }
 .card{
-    border-radius: 14px;
+    border-radius: 7px;
     background-color: var(--background-color);
     width: calc((100% - 20px * 3) / 4);
     padding: 40px;
@@ -45,4 +45,87 @@
     font-size: 18px;
     line-height: 150%;
     color: #B3B3B2;
+}
+/* tablet */
+@media screen and (min-width:768px) and (max-width:991.98px){
+.section-title{
+    font-size: 16px;
+
+}
+.section-header{
+    padding: 30px 30px 30px 30px;
+    border-radius: 8px;
+}
+.card{
+    padding: 20px;
+}
+.card-title {
+    font-weight: 500;
+    font-size: 9px;
+    height: auto;
+}
+.card-content{
+    gap: 0;
+}
+.card-desc {
+font-size: 7px;
+}
+.card{
+    gap:10px;
+}
+.text-side-btn{
+    font-size: 7px;
+}
+.card-grid{
+    gap: 5px;
+}
+.card{
+    width: calc((100% - 5px * 3) / 4);
+}
+.reason{
+    gap:5px;
+    padding: 5px;
+    margin-top: 60px;
+    border-radius: 12px;
+}
+}
+@media screen and (max-width:767.98px){
+    .reason{
+        margin-top: 50px;
+    }
+.section-header{
+padding: 30px;
+border-radius: 10px;
+}
+.section-title{
+    font-size: 24px;
+    line-height: 1.4;
+}
+.card{
+    width: 100%;
+    padding: 30px;
+    gap: 20px;
+}
+.card-title{
+    font-size: 17px;
+    height: auto;
+}
+.reason .card-desc{
+    display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; 
+  overflow: hidden;
+  font-size: 12px;
+}
+.reason .btn-arrow-top-right img{
+    width: 14px;
+    top:1px;
+}
+.reason .btn-arrow-top-right{
+padding: 17px 19px;
+}
+.reason .text-side-btn{
+    font-size: 15px;
+}
+
 }
