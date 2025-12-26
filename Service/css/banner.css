@@ -1,0 +1,15 @@
+.banner {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.banner-left {
+    padding: 100px 80px 180px 80px;
+    background-color: #1A1A1A;
+    border-radius: 20px;
+}
+.banner-right {
+    background-image: url('../image/Sub Container.svg');
+}

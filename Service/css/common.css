@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto Flex", sans-serif;
+}
+.container {
+    margin: 0 50px;
+}
+a {
+    font-family: "Roboto Mono", monospace;
+}
