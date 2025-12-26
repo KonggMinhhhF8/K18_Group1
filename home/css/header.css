@@ -146,7 +146,7 @@ text-align: center;
 margin-bottom: 23px;
 
 }.menu-drawer-content ul li:first-child{
-background-color: var(--secondary-color);
+background-color: #0F0F0F;
 }
 .menu-drawer-content ul li:first-child a{
 color: var(--primary-color);

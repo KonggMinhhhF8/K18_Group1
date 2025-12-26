@@ -328,7 +328,7 @@ top: 14%;
 .stat-item{
     width: calc((100% - 20px) / 2);
 }.stat-label{
-    font-size: 14px;
+    font-size: 12px;
 }
 .stat-number{
     font-size: 50px;
