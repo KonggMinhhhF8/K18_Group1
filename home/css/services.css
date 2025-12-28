@@ -92,6 +92,8 @@ margin-top: 25px;
     .services{
         margin-top: 50px;
         margin-bottom: 50px;
+        padding: 10px;
+        gap: 15px;
     }
 .service-card{
     width: 100%;
@@ -118,5 +120,44 @@ margin-top: 25px;
 }
 .service-card.hide-on-pc-and-tablet{
     display: block;
+}
+}
+@media screen and (min-width:992px) and (max-width:1199.98px) {
+
+.card-title--services{
+    font-size: 11px;
+}
+.text-side-btn--services{
+    font-size: 13px;
+}
+.card-desc--services{
+    margin-top: 20px;
+}
+.card-content___header-left img{
+    padding: 8px;
+}
+.btn-arrow-top-right--services{
+    padding: 7px 8px;
+}
+.price{
+    font-size: 18px;
+}
+}
+@media screen and (min-width:1200px) and (max-width:1399.98px) {
+
+.card-title--services{
+    font-size: 17px;
+}
+.text-side-btn--services{
+    font-size: 13px;
+}
+.card-desc--services{
+    margin-top: 20px;
+}
+.btn-arrow-top-right--services{
+    padding: 7px 8px;
+}
+.price{
+    font-size: 18px;
 }
 }
