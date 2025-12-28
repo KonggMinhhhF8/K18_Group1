@@ -127,6 +127,8 @@
     .testimonials{
         margin-top: 50px;
         margin-bottom: 50px;
+        padding: 10px;
+        gap: 15px;
     }
 .testimonial-card{
     width: 100%;
@@ -163,5 +165,119 @@ top:1px;
 .btn-show-more--testimonials{
 margin: 0;
 width: 100%;
+}
+}
+@media screen and (min-width:992px) and (max-width:1199.98px) {
+.testimonial-content{
+    padding: 25px;
+}
+.testimonial-title{
+    font-size: 10px;
+    font-weight: 600;
+}
+.testimonial-desc{
+    font-size: 12px;
+}
+.testimonial-footer{
+    padding: 15px 20px;
+}
+.testimonial-author img{
+    width: 40px;
+}
+.btn-arrow{
+    padding: 4px 8px;
+}
+.btn-arrow img{
+    width: 10px;
+}
+.author-name{
+    font-size: 10px;
+}
+.author-role{
+    font-size: 8px;
+}
+.testimonial-author{
+    gap: 10px;
+}
+}
+@media screen and (min-width:1200px) and (max-width:1399.98px) {
+.testimonial-content{
+    padding: 25px;
+}
+.testimonial-title{
+    font-size: 13px;
+    font-weight: 600;
+}
+.testimonial-desc{
+    font-size: 14px;
+}
+.testimonial-footer{
+    padding: 15px 20px;
+}
+.testimonial-author img{
+    width: 48px;
+}
+.btn-arrow{
+    padding: 7px 9px;
+}
+.btn-arrow img{
+    width: 16px;
+    position: relative;
+    top: 2px;
+}
+.author-name{
+    font-size: 13px;
+}
+.author-role{
+    font-size: 11px;
+}
+.testimonial-author{
+    gap: 10px;
+}
+}
+@media screen and (min-width:1400px) and (max-width:1599.98px) {
+.testimonial-content{
+    padding: 25px;
+}
+.testimonial-title{
+    font-size: 18px;
+    font-weight: 600;
+}
+.testimonial-desc{
+    font-size: 17px;
+}
+.testimonial-footer{
+    padding: 15px 20px;
+}
+.testimonial-author img{
+    width: 60px;
+}
+.btn-arrow{
+    padding: 11px 13px;
+}
+.btn-arrow img{
+    width: 24px;
+    position: relative;
+    top: 2px;
+}
+.author-name{
+    font-size: 18px;
+}
+.author-role{
+    font-size: 14px;
+}
+.testimonial-author{
+    gap: 10px;
+}
+}
+@media screen and (min-width:1600px) and (max-width:1865.98px) {
+.testimonial-title{
+    font-size: 19px;
+}
+.author-name{
+    font-size: 18px;
+}
+.author-role{
+    font-size: 14px;
 }
 }
