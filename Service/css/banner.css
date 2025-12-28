@@ -6,7 +6,7 @@
     gap: 20px;
 }
 .banner-left {
-    padding: 100px 80px 180px 80px;
+    padding: 100px 50px 180px 50px;
     background-color: #1A1A1A;
     border-radius: 20px;
 }
@@ -19,19 +19,14 @@
 }
 .banner-image {
     width: 593px;
-    height: 592px;
+    height: 572px;
     border-radius: 20px;
-
     background-image: url('../image/Banner.png');
     background-size: cover;
     background-position: center;
-
     background-color: rgba(206, 125, 99, 0.8);
-
     background-blend-mode: multiply;
-
     display: flex;
-    flex-direction: column;
     justify-content: flex-end;
     padding: 30px;
     position: relative;
@@ -39,5 +34,89 @@
 }
 .CTA-button-2 {
     border-radius: 50%;
-    background-color: #b81919;
+    background-color: #CE7D63;
+    display: inline-block;
+    width: 53px;
+    height: 53px;
+    position: absolute;
+    top: 14%;
+    left: 17%;
+}
+.CTA-button-2 img {
+    position: relative;
+    bottom: -19px;
+    right: -16px;
+}
+.CTA-button-1 {
+    position: relative;
+}
+.CTA {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.CTA-text {
+    color: #CE7D63;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.banner-left-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.banner-description {
+    color: #676665;
+    font-size: 18px;
+    line-height: 150%;
+    width: 930px;
+}
+.vector431 {
+    border-radius: 100px;
+    background-color: white;
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+
+}
+.vector431 img {
+    position: relative;
+    bottom: -15px;
+    right: -14px;
+}
+.banner-vector {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content:left;
+    align-self: end;
+
+}
+.banner-right-text {
+    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.banner-right-btn {
+    font-family: "Roboto Flex", monospace;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px 14px;
+    gap: 10px;
+    align-self: flex-end;
+}
+.banner-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
