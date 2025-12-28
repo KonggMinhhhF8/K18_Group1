@@ -10,6 +10,14 @@
     background-color: #1A1A1A;
     border-radius: 20px;
 }
-.banner-right {
-    background-image: url('../image/Sub Container.svg');
+.banner-title {
+    text-transform: uppercase;
+    color: #F9EFEC;
+    font-size: 78px;
+    font-weight: 600;
+    line-height: 150%;
+}
+.CTA-button-2 {
+    border-radius: 50%;
+    background-color: #b81919;
 }
