@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9833be52-278f-4dc8-a066-77de5528b975" name="Changes" comment="push2">
-      <change afterPath="$PROJECT_DIR$/Service/css/services.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Service/image/RulerCrossPen.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Service/css/banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/Service/css/banner.css" afterDir="false" />
+    <list default="true" id="9833be52-278f-4dc8-a066-77de5528b975" name="Changes" comment="feat: our services (40%)">
       <change beforePath="$PROJECT_DIR$/Service/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Service/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +99,7 @@
       <workItem from="1766892958109" duration="1183000" />
       <workItem from="1766910259573" duration="10349000" />
       <workItem from="1767016355477" duration="3227000" />
-      <workItem from="1767019752563" duration="4289000" />
+      <workItem from="1767019752563" duration="4669000" />
     </task>
     <task id="LOCAL-00001" summary="hhh">
       <option name="closed" value="true" />
@@ -121,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766920422561</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: our services (40%)">
+      <option name="closed" value="true" />
+      <created>1767024390302</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1767024390302</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +134,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hhh" />
     <MESSAGE value="push2" />
-    <option name="LAST_COMMIT_MESSAGE" value="push2" />
+    <MESSAGE value="push our services" />
+    <MESSAGE value="feat: our services (40%)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: our services (40%)" />
   </component>
 </project>
