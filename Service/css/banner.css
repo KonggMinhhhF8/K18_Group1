@@ -9,6 +9,12 @@
     padding: 100px 50px 180px 50px;
     background-color: #1A1A1A;
     border-radius: 20px;
+    align-content: flex-start;
+    width: 70%;
+}
+.banner-right {
+    align-content: flex-end;
+    width: 30%;
 }
 .banner-title {
     text-transform: uppercase;
@@ -17,8 +23,12 @@
     font-weight: 600;
     line-height: 150%;
 }
+.banner-top {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
 .banner-image {
-    width: 593px;
     height: 572px;
     border-radius: 20px;
     background-image: url('../image/Banner.png');

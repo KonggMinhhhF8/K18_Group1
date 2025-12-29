@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9833be52-278f-4dc8-a066-77de5528b975" name="Changes" comment="hhh">
+    <list default="true" id="9833be52-278f-4dc8-a066-77de5528b975" name="Changes" comment="push2">
+      <change afterPath="$PROJECT_DIR$/Service/css/services.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/image/RulerCrossPen.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Service/css/banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/Service/css/banner.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Service/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Service/index.html" afterDir="false" />
@@ -17,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -53,6 +55,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
@@ -98,7 +101,9 @@
       <workItem from="1766748134250" duration="21000" />
       <workItem from="1766748181078" duration="8798000" />
       <workItem from="1766892958109" duration="1183000" />
-      <workItem from="1766910259573" duration="9668000" />
+      <workItem from="1766910259573" duration="10349000" />
+      <workItem from="1767016355477" duration="3227000" />
+      <workItem from="1767019752563" duration="4289000" />
     </task>
     <task id="LOCAL-00001" summary="hhh">
       <option name="closed" value="true" />
@@ -108,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766912107562</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="push2">
+      <option name="closed" value="true" />
+      <created>1766920422561</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1766920422561</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +129,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hhh" />
-    <option name="LAST_COMMIT_MESSAGE" value="hhh" />
+    <MESSAGE value="push2" />
+    <option name="LAST_COMMIT_MESSAGE" value="push2" />
   </component>
 </project>
