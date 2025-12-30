@@ -4,21 +4,24 @@
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  padding: 40px;
+  padding: 100px;
   gap: 40px;
+  display: flex;
+  padding: 120px 20px;
 }
 
 /* NEW: WRAPPER BOX */
 .box-wrapper {
-   border: 2px solid #1a1a1a;
+  border: 2px solid #1a1a1a;
   padding: 40px;
   border-radius: 16px;
   background: #0d0d0d;
   display: flex;
+  width: 100%;
 }
 /* BOX TRÁI */
 .box-wrapper:first-child {
-  flex: 1.5;
+  flex: 2;
 }
 
 /* BOX PHẢI */
@@ -105,4 +108,26 @@
   padding: 6px 10px;
   border-radius: 50%;
   border: 2px solid #e9957e;
+}
+
+@media (max-width: 992px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-left,
+  .hero-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
 }

@@ -1,0 +1,23 @@
+@media (max-width: 1200px) {
+  .container_1 {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-inner {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .nav a.btn {
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -1,10 +1,17 @@
 /* SECTION WRAPPER */
 .team-section {
-  background: #111;
-  padding: 40px 50px;
+  /* background: #111;
+  padding: 20px 20px;
+  
+  margin-top: -40px;
   border-radius: 20px;
-  border: 2px solid #1b1b1b;
+  border: 2px solid #1b1b1b; */
+    max-width: 1500px;      /* giống awards */
+  margin: 40px auto;
+  padding: 60px 40px;     /* giống awards */
+
 }
+
 
 /* HEADER */
 .team-header {
@@ -17,6 +24,12 @@
 .team-header h2 {
   font-size: 32px;
   font-weight: 700;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 /* ALL MEMBERS BUTTON */
@@ -64,14 +77,6 @@
   margin-bottom: 20px;
 }
 
-/* IMAGE BOX */
-/* .img-box {
-  background: #f1c4b7;
-  border-radius: 12px;
-  padding: 20px 0;
-  margin-bottom: 25px;
-} */
-
 .img-box img {
   width: 150px;
   height: auto;
@@ -94,4 +99,22 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .team-header {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
 }

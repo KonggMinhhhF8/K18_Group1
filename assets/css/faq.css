@@ -144,4 +144,16 @@ textarea {
     
 }
 
+@media (max-width: 992px) {
+  .faq-container {
+    flex-direction: column;
+  }
+
+  .left-box,
+  .right-box {
+    width: 100%;
+  }
+}
+
+
 

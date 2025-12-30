@@ -2,8 +2,7 @@
 .achievements-title {
   background: #141414;
   padding: 40px;
-  width: 90%;
-  margin: 0 auto 40px auto;
+  margin: 0 auto 40px;
   border-radius: 16px;
 }
 
@@ -11,16 +10,27 @@
   font-size: 36px;
   font-weight: 700;
 }
+/* DÙNG CHUNG */
+.achievements-title,
+.achievements-grid,
+.team-section {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* GRID */
 .achievements-grid {
-  width: 90%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 25px;
 }
-
+.achievements-title,
+.achievements-grid {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 /* CARD */
 .achieve-card {
   background: #161616;
@@ -52,5 +62,18 @@
 
 
 
+@media (max-width: 992px) {
+  .achievements-grid,
+  .awards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .achievements-grid,
+  .awards-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
 

@@ -165,3 +165,34 @@
     height: 100px;
     margin-top: -150px;
 }
+
+@media (max-width: 768px) {
+  .top-banner {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .banner-btn {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 1200px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-card {
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+
