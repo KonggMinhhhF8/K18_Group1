@@ -1,0 +1,77 @@
+.features-container {
+  max-width: 1820px;
+  height: 580px;
+  margin: 120px 50px 0 50px;
+  padding: 20px;
+  border-radius: 24px;
+  padding: 20px;
+  border: 2px solid #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.features-main-title {
+  max-width: 1780px;
+  height: 156px;
+  border-radius: 16px;
+  padding: 50px 300px 50px 50px;
+  gap: 16px;
+  background-color: #1a1a1a;
+  display: flex;
+  align-items: center;
+}
+
+.features-main-title h3 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #f9efec;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+.features {
+  display: flex;
+  max-width: 1780px;
+  height: 364px;
+  gap: 20px;
+}
+
+.feature {
+  background-color: #1a1a1a;
+  border-radius: 14px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 430px;
+  height: 364px;
+  gap: 80px;
+}
+
+.feature--icon {
+  width: 66px;
+  height: 66px;
+  background-color: #1F1F1F;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #333333;
+}
+
+.feature-title {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 500;
+  font-size: 29px;
+  line-height: 150%;
+  color: #B3B3B2;
+}
+
+.feature-description {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #B3B3B2;
+  line-height: 150%;
+}

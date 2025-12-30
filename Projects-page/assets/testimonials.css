@@ -1,0 +1,151 @@
+.testimonials-container {
+  max-width: 1820px;
+  height: 632px;
+  margin: 120px 50px 0 50px;
+  padding: 20px;
+  border-radius: 24px;
+  border: 2px solid #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.testimonials-header {
+  max-width: 1780px;
+  height: 168px;
+  border-radius: 16px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1a1a1a;
+}
+
+.testimonials-header h3 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 100%;
+  color: #f9efec;
+}
+
+.testimonials-header-btn {
+  /* width: 271px; */
+  height: 68px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn-icon-testimonials {
+  width: 68px;
+  height: 68px;
+  border-radius: 100px;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  border: 1px solid #262626;
+}
+
+.testimonials-icon-arrow {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #b3b3b2;
+}
+
+.testimonials {
+  max-width: 1780px;
+  height: 404px;
+  display: flex;
+  gap: 20px;
+}
+
+.testimonials-card {
+  flex: 1;
+  display: flex;
+  height: 404px;
+  border-radius: 16px;
+  background: #1a1a1a;
+  flex-direction: column;
+}
+
+.testimonials--content {
+  height: 284px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.testimonials-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #f9efec;
+}
+
+.testimonials-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #b3b3b2;
+}
+
+.user-info {
+  height: 120px;
+  padding: 30px 40px;
+  display: flex;
+  align-items: center;
+  background: #1f1f1f;
+  justify-content: space-between;
+}
+
+.user-info .info {
+  display: flex;
+  gap: 15px;
+  border-bottom: 1px;
+  align-items: center;
+}
+
+/* Avatar */
+.user-info .info img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  object-fit: cover;
+  background: #ce7d63;
+}
+
+.user-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.user-text .name {
+  height: 30px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #f3dfd8;
+  line-height: 150%;
+}
+
+.user-text .role {
+  font-weight: 400;
+  font-size: 18px;
+  color: #81807e;
+  line-height: 150%;
+}
+
+.btn-read-more {
+    width: 52px;
+    height: 52px;
+    padding: 14px;
+    border-radius: 100px;
+    border: 1px solid #333333;
+    background: #1F1F1F;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+

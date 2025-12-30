@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0F0F0F;
+    max-width: 1920px;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+

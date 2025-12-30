@@ -1,0 +1,271 @@
+
+.projects-container {
+  max-width: 1818px;
+  height: 1125px;
+  margin: 120px 52px 0 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.projects-header {
+  height: 163px;
+  background: #1A1A1A;
+  border-radius: 16px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projects-header h3 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #F9EFEC;
+}
+
+.tabs {
+  /* width: 540px; */
+  height: 63px;
+  display: flex;
+  gap: 12px;
+}
+
+.tabs button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-style: none;
+  border-radius: 12px;
+  padding: 24px 18px;
+  border-radius: 10px;
+  background: #1F1F1F;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.tabs .active {
+  background: #CE7D63;
+  color: #0F0F0F;
+}
+
+/* PROJECT SHOWCASE */
+.projects-showcase {
+  max-width: 1818px;
+  height: 952px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.project-card {
+  height: 466px;
+  background: #1F1F1F;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.project-card .item {
+  flex: 1;
+  box-sizing: border-box;
+}
+
+.project-left {
+  height: 426px;
+  background: #1A1A1A;
+  border-radius: 14px;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 500;
+  color: #F9EFEC;
+}
+
+.title-row--left {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.title-row--icon {
+  width: 66px;
+  height: 66px;
+  border: 1px solid #333333;
+  border-radius: 12px;
+  color: #1F1F1F;
+}
+
+.title-row-right {
+  width: 147px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn-icon-showcase {
+  text-decoration: none;
+  padding: 14px;
+  width: 52px;
+  height: 52px;
+  border-radius: 100px;
+  color: #1F1F1F;
+  border: 1px solid #333333;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.details-icon-arrow {
+  font-size: 20px;
+  color: #B3B3B2;
+}
+
+.category {
+  font-family: 400;
+  line-height: 150%;
+  font-size: 18px;
+  color: #B3B3B2;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.category .dot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.category .dot::after {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background-color: #CE7D63;
+}
+
+.category .info {
+  display: inline-flex;
+  max-width: fit-content;
+  align-items: center;
+  border-radius: 45px;
+  padding: 10px 16px;
+  gap: 8px;
+  background: #1F1F1F;
+}
+
+.category .info strong {
+  font-weight: 500;
+  color: #E6E6E6;
+}
+
+.description {
+  font-size: 18px;
+  color: #B3B3B2;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.project-center img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+.project-right {
+  height: 418px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.tech-box {
+  height: 225px;
+  border-radius: 14px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: #1A1A1A;
+}
+
+.tech {
+  height: 98px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tech span {
+  height: 44px;
+  display: flex;
+  background: #1F1F1F;
+  padding: 10px 16px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 45px;
+  color: #E6E6E6;
+  align-items: center;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.team-box {
+  display: flex;
+  background: #1A1A1A;
+  padding: 20px 40px;
+  border-radius: 14px;
+  gap: 40px;
+}
+
+.team-avatars {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  gap: 10px;
+}
+
+.team-avatars-bg {
+  background: #E7BEB1;
+  border-radius: 100px;
+}
+
+.team-avatars img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+.cta {
+  height: 63px;
+  padding: 18 24px;
+  border-radius: 12px;
+  background: #CE7D63;
+  color: #0F0F0F;
+  font-weight: 500;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}

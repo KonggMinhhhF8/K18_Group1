@@ -1,0 +1,55 @@
+.navbar {
+  position: fixed;
+  max-width: 1820px;
+  height: 111px;
+  top: 30px;
+  left: 50px;
+  right: 50px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  background: #1A1A1A;
+  border: 1px solid #1c1c21;
+  border-radius: 16px;
+  padding: 24px 24px 24px 50px;
+  z-index: 999;
+}
+
+.logo {
+  width: 129.71px;
+  height: 24px;
+}
+
+
+.nav--menu {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  background: #1A1A1A;
+}
+
+.nav--menu li {
+  gap: 10px;
+}
+
+.nav--menu a {
+  font-family: "Roboto Mono", sans-serif;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 18px 24px;
+  border-radius: 12px;
+  color: #81807e;
+  background: #0f0f0f;
+  border: 1px solid #1c1c21;
+}
+
+.nav--menu a.btn-contact {
+  background: #ce7d63;
+  color: #0F0F0F;
+}
+
+
