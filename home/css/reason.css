@@ -132,6 +132,13 @@ padding: 17px 19px;
 
 }
 @media screen and (min-width:992px) and (max-width:1199.98px) {
+    .reason{
+        padding: 0 20px 20px 20px;
+        gap: 0;
+    }
+    .section-header--reason{
+        margin-bottom: 20px;
+    }
 .section-header{
     padding: 50px 150px 50px 50px;
 }
@@ -142,11 +149,11 @@ padding: 17px 19px;
     padding: 30px;
 }
 .card-title{
-    font-size: 13px;
+    font-size: 20px;
     height: auto;
 }
 .card-desc{
-    font-size: 8px;
+    font-size: 12px;
 }
 .text-side-btn{
     font-size: 13px;

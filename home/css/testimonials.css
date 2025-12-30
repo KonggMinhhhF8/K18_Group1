@@ -172,11 +172,12 @@ width: 100%;
     padding: 25px;
 }
 .testimonial-title{
-    font-size: 10px;
+    font-size: 14px;
+    height: 60px;
     font-weight: 600;
 }
 .testimonial-desc{
-    font-size: 12px;
+    font-size: 14px;
 }
 .testimonial-footer{
     padding: 15px 20px;
