@@ -51,13 +51,14 @@
 }
 .services-item-right {
     display: flex;
+}
+.services-item-right-sub {
     height: 250px;
     background-color: white;
     border-radius: 14px;
     border: 3px solid white;
     padding: 90px 60px;
     margin-top: 20px;
-    margin-left: 20px;
 }
 .services-item-right-sub1 {
     align-content: flex-start;
