@@ -49,9 +49,6 @@
     width: 50%;
     text-align: right;
 }
-.services-item-right {
-    display: flex;
-}
 .services-item-right-sub {
     height: 250px;
     background-color: white;
