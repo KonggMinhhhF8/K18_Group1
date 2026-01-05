@@ -1,33 +1,38 @@
 /* HERO */
 
 .hero {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
   align-items: stretch;
   padding: 100px;
   gap: 40px;
   display: flex;
+  padding: 120px 20px; */
+
+  display: flex;
+  gap: 40px;
   padding: 120px 20px;
 }
 
 /* NEW: WRAPPER BOX */
 .box-wrapper {
-  border: 2px solid #1a1a1a;
+  /* border: 2px solid #1a1a1a;
   padding: 40px;
   border-radius: 16px;
   background: #0d0d0d;
   display: flex;
-  width: 100%;
-}
-/* BOX TRÁI */
-.box-wrapper:first-child {
-  flex: 2;
-}
+  width: 99%;
+  flex: 1;    */
 
-/* BOX PHẢI */
-.box-wrapper:last-child {
+  border: 2px solid #1a1a1a;
+  padding: 40px;
+  border-radius: 16px;
+  background: #0d0d0d;
+
+  display: flex;
   flex: 1; 
 }
+
 /* LEFT TEXT BLOCK */
 .hero-left .title {
   font-size: 58px;
@@ -108,6 +113,19 @@
   padding: 6px 10px;
   border-radius: 50%;
   border: 2px solid #e9957e;
+}
+
+.hero,
+.team-section,
+.achievements,
+.awards-section,
+.testimonials-section,
+.faq-section {
+  max-width: var(--container-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 @media (max-width: 992px) {
