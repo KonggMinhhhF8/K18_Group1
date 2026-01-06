@@ -1,68 +1,9 @@
-.services {
-    border: solid 2px red;
+.Services {
+    margin-top: 120px;
     border-radius: 24px;
-    top: 903px;
-    left: 50px;
+    border: 2px solid #1F1F1F;
     padding: 20px;
-    background-color: #1F1F1F;
-    margin-top: 20px;
-}
-.services-header {
-    border-radius: 16px;
-    padding: 50px;
-    background-color: orange;
-    color: white;
-}
-.services-header h2 {
-    font-size: 48px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-.services-content {
     display: flex;
-}
-.services-item-left {
-    align-content: flex-start;
-    width: 50%;
-}
-.services-item-right {
-    align-content: flex-end;
-    width: 50%;
-}
-.services-item {
-    height: 250px;
-    background-color: white;
-    border-radius: 14px;
-    border: 3px solid white;
-    padding: 90px 60px;
-    margin-top: 20px;
-}
-.services-web-design {
-    display: flex;
-}
-.services-web-design-image {
-    align-content: flex-start;
-    width: 50%;
-}
-.services-web-design-CTA {
-    align-content: flex-end;
-    width: 50%;
-    text-align: right;
-}
-.services-item-right-sub {
-    height: 250px;
-    background-color: white;
-    border-radius: 14px;
-    border: 3px solid white;
-    padding: 90px 60px;
-    margin-top: 20px;
-}
-.services-item-right-sub1 {
-    align-content: flex-start;
-    width: 50%;
-}
-.services-item-right-sub1-text {
-    align-content: flex-end;
-    width: 50%;
-    text-align: right;
+    gap: 20px;
+    flex-direction: column;
 }

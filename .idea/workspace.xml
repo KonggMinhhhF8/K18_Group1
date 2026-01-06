@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9833be52-278f-4dc8-a066-77de5528b975" name="Changes" comment="feat: our services (45%) 1">
+    <list default="true" id="9833be52-278f-4dc8-a066-77de5528b975" name="Changes" comment="feat: our services (45%) 2">
+      <change afterPath="$PROJECT_DIR$/Service/image/Menubaricon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_12_25,_16_16_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/Service/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/Service/css/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Service/css/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/Service/css/services.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Service/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +106,9 @@
       <workItem from="1766910259573" duration="10349000" />
       <workItem from="1767016355477" duration="3227000" />
       <workItem from="1767019752563" duration="4719000" />
-      <workItem from="1767071795382" duration="6660000" />
+      <workItem from="1767071795382" duration="11196000" />
+      <workItem from="1767177014401" duration="114000" />
+      <workItem from="1767689592344" duration="8618000" />
     </task>
     <task id="LOCAL-00001" summary="hhh">
       <option name="closed" value="true" />
@@ -151,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767093155276</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: our services (45%) 2">
+      <option name="closed" value="true" />
+      <created>1767093565139</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1767093565139</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +179,7 @@
     <MESSAGE value="feat: our services (40%)" />
     <MESSAGE value="feat: our services (45%)" />
     <MESSAGE value="feat: our services (45%) 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: our services (45%) 1" />
+    <MESSAGE value="feat: our services (45%) 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: our services (45%) 2" />
   </component>
 </project>

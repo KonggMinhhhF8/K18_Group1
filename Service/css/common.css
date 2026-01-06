@@ -12,3 +12,16 @@ body {
 a {
     font-family: "Roboto Mono", monospace;
 }
+.section-header {
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background: #1A1A1A;
+}
+.section-header h2 {
+    color: #F9EFEC;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
