@@ -25,3 +25,53 @@ a {
     font-weight: 600;
     text-transform: uppercase;
 }
+.arrow-top-right-icon {
+    border-radius: 100px;
+    border: 1px solid #333333;
+    padding: 14px 16px;
+    background-color: #1F1F1F;
+}
+.arrow-top-right-icon img {
+    position: relative;
+    top: 2px;
+}
+.text-aside-arrow {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #B3B3B2;
+}
+.vector {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content:left;
+    align-self: end;
+}
+.vector-text {
+    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.vector431 {
+    border-radius: 100px;
+    background-color: white;
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+}
+.vector431 img {
+    position: relative;
+    bottom: -15px;
+    right: -13px;
+}
+.wrapper-right-header-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.arrow-top-right-icon-big {
+    padding: 18px 20px;
+}

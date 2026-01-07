@@ -84,34 +84,6 @@
     line-height: 150%;
     width: 930px;
 }
-.vector431 {
-    border-radius: 100px;
-    background-color: white;
-    display: inline-block;
-    width: 44px;
-    height: 44px;
-
-}
-.vector431 img {
-    position: relative;
-    bottom: -15px;
-    right: -14px;
-}
-.banner-vector {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    justify-content:left;
-    align-self: end;
-
-}
-.banner-right-text {
-    font-family: "Roboto Mono", monospace;
-    font-size: 18px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
 .banner-right-btn {
     font-family: "Roboto Flex", monospace;
     font-weight: 400;

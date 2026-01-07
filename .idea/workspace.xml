@@ -4,12 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9833be52-278f-4dc8-a066-77de5528b975" name="Changes" comment="feat: our services (45%) 2">
-      <change afterPath="$PROJECT_DIR$/Service/image/Menubaricon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_12_25,_16_16_[Changes]/shelved.patch" beforeDir="false" />
+    <list default="true" id="9833be52-278f-4dc8-a066-77de5528b975" name="Changes" comment="feat: our services (50%)">
+      <change afterPath="$PROJECT_DIR$/Service/css/success.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/image/Ghost Smile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/image/Smartphone 2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/image/Vector development.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/image/Vector digital.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/image/Vectororange.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/image/service1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/image/service2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/image/service3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/image/service4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/image/service5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/image/service6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/image/service7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/image/service8.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/css/banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/Service/css/banner.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Service/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/Service/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Service/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/Service/css/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Service/css/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/Service/css/services.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Service/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Service/index.html" afterDir="false" />
     </list>
@@ -21,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -108,7 +120,8 @@
       <workItem from="1767019752563" duration="4719000" />
       <workItem from="1767071795382" duration="11196000" />
       <workItem from="1767177014401" duration="114000" />
-      <workItem from="1767689592344" duration="8618000" />
+      <workItem from="1767689592344" duration="8658000" />
+      <workItem from="1767783949504" duration="13341000" />
     </task>
     <task id="LOCAL-00001" summary="hhh">
       <option name="closed" value="true" />
@@ -166,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767093565139</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: our services (50%)">
+      <option name="closed" value="true" />
+      <created>1767701069937</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1767701069937</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +201,7 @@
     <MESSAGE value="feat: our services (45%)" />
     <MESSAGE value="feat: our services (45%) 1" />
     <MESSAGE value="feat: our services (45%) 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: our services (45%) 2" />
+    <MESSAGE value="feat: our services (50%)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: our services (50%)" />
   </component>
 </project>
