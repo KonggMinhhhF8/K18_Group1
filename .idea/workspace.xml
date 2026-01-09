@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9833be52-278f-4dc8-a066-77de5528b975" name="Changes" comment="feat: Faq (80%)">
-      <change afterPath="$PROJECT_DIR$/Service/css/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Service/css/marquee.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Service/css/touch.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Service/image/ball.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Service/image/be.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Service/image/insta icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Service/image/minus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Service/image/twitter icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Service/css/faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/Service/css/faq.css" afterDir="false" />
+    <list default="true" id="9833be52-278f-4dc8-a066-77de5528b975" name="Changes" comment="feat: completed (96%)">
+      <change beforePath="$PROJECT_DIR$/Service/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/Service/css/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Service/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Service/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +108,7 @@
       <workItem from="1767689592344" duration="8658000" />
       <workItem from="1767783949504" duration="13368000" />
       <workItem from="1767859213605" duration="10946000" />
-      <workItem from="1767946785840" duration="17955000" />
+      <workItem from="1767946785840" duration="18717000" />
     </task>
     <task id="LOCAL-00001" summary="hhh">
       <option name="closed" value="true" />
@@ -207,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767869601771</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat: completed (96%)">
+      <option name="closed" value="true" />
+      <created>1767974900511</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1767974900511</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +222,7 @@
     <MESSAGE value="feat: our services (45%) 2" />
     <MESSAGE value="feat: our services (50%)" />
     <MESSAGE value="feat: Faq (80%)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Faq (80%)" />
+    <MESSAGE value="feat: completed (96%)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: completed (96%)" />
   </component>
 </project>
