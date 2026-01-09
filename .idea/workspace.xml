@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9833be52-278f-4dc8-a066-77de5528b975" name="Changes" comment="feat: our services (50%)">
-      <change afterPath="$PROJECT_DIR$/Service/css/faq.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Service/css/testimonials.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Service/image/Hand Heart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Service/image/arrow-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Service/image/plus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Service/image/testimonials1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Service/image/testimonials2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Service/image/testimonials3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Service/image/testimonials4.svg" afterDir="false" />
+    <list default="true" id="9833be52-278f-4dc8-a066-77de5528b975" name="Changes" comment="feat: Faq (80%)">
+      <change afterPath="$PROJECT_DIR$/Service/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/css/marquee.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/css/touch.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/image/ball.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/image/be.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/image/insta icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/image/minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/image/twitter icon.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Service/css/success.css" beforeDir="false" afterPath="$PROJECT_DIR$/Service/css/success.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/css/faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/Service/css/faq.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Service/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Service/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,27 +59,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.index.html.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature-service-page",
-    "last_opened_file_path": "/Users/binhbui/Downloads/编程/K18_Group1/Service/image",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature-service-page&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/binhbui/Downloads/编程/K18_Group1/Service/image&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Service/image" />
@@ -117,7 +116,8 @@
       <workItem from="1767177014401" duration="114000" />
       <workItem from="1767689592344" duration="8658000" />
       <workItem from="1767783949504" duration="13368000" />
-      <workItem from="1767859213605" duration="10195000" />
+      <workItem from="1767859213605" duration="10946000" />
+      <workItem from="1767946785840" duration="17955000" />
     </task>
     <task id="LOCAL-00001" summary="hhh">
       <option name="closed" value="true" />
@@ -191,7 +191,23 @@
       <option name="project" value="LOCAL" />
       <updated>1767797835836</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: Faq (80%)">
+      <option name="closed" value="true" />
+      <created>1767869593433</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1767869593433</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: Faq (80%)">
+      <option name="closed" value="true" />
+      <created>1767869601771</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1767869601771</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +222,7 @@
     <MESSAGE value="feat: our services (45%) 1" />
     <MESSAGE value="feat: our services (45%) 2" />
     <MESSAGE value="feat: our services (50%)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: our services (50%)" />
+    <MESSAGE value="feat: Faq (80%)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Faq (80%)" />
   </component>
 </project>

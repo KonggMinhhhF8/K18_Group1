@@ -1,0 +1,21 @@
+.marquee {
+    display: flex;
+    margin-top: 120px;
+    padding: 20px 0;
+    border-radius: 12px;
+    gap: 10px;
+    background-color: #1A1A1A;
+}
+.marquee-content {
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.marquee-text {
+    color: #676665;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+}

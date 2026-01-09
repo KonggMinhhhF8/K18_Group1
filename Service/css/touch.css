@@ -1,0 +1,49 @@
+.touch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+    background-color: #CE7D63;
+    border-radius: 20px;
+    padding: 80px;
+    gap: 145px;
+}
+.touch-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.touch-title {
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #0F0F0F;
+    margin-bottom: 4px;
+}
+.touch-description p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #262626;
+}
+.touch-btn {
+    border-radius: 12px;
+    padding: 18px 34px;
+    gap: 10px;
+    background-color: #0F0F0F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    outline: none;
+    align-self: end;
+}
+.touch-btn span {
+    color: #F3DFD8;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    text-transform: uppercase;
+    display: flex;
+}
