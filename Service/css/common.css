@@ -5,6 +5,7 @@
 }
 body {
     font-family: "Roboto Flex", sans-serif;
+    background: #0F0F0F;
 }
 .container {
     margin: 0 50px;
@@ -30,6 +31,7 @@ a {
     border: 1px solid #333333;
     padding: 14px 16px;
     background-color: #1F1F1F;
+    align-self: center;
 }
 .arrow-top-right-icon img {
     position: relative;
@@ -40,6 +42,7 @@ a {
     font-weight: 500;
     text-transform: uppercase;
     color: #B3B3B2;
+    font-family: "Roboto Mono";
 }
 .vector {
     display: flex;

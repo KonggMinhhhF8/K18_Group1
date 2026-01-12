@@ -111,6 +111,7 @@
     font-weight: 400;
     text-transform: uppercase;
     color: #F9EFEC;
+    font-family: "Roboto Mono";
 }
 .success-right-content-description {
     line-height: 150%;

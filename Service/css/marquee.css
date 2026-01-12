@@ -1,10 +1,20 @@
 .marquee {
     display: flex;
-    margin-top: 120px;
+    margin-top: 20px;
     padding: 20px 0;
     border-radius: 12px;
     gap: 10px;
     background-color: #1A1A1A;
+}
+.marquee-banner {
+    display: flex;
+    margin-top: 90px;
+    padding: 20px 0;
+    border-radius: 12px;
+    gap: 10px;
+    background-color: #0F0F0F;
+    align-self: center;
+    width: 1260px;
 }
 .marquee-content {
     display: flex;
@@ -18,4 +28,5 @@
     font-size: 16px;
     line-height: 150%;
     text-transform: uppercase;
+    font-family: "Roboto Mono";
 }

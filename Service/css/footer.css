@@ -1,7 +1,7 @@
 .footer {
     gap: 20px;
     display: flex;
-    margin-top: 120px;
+    margin-top: 20px;
 }
 .footer-left {
     gap: 20px;
@@ -12,7 +12,7 @@
 .footer-left-item {
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 60px;
     border-radius: 14px;
     padding: 40px;
     background-color: #1A1A1A;
@@ -70,6 +70,7 @@
     font-size: 22px;
     line-height: 100%;
     color: #F3DFD8;
+    font-family: "Roboto Mono";
 }
 .footer-menu-list {
     display: flex;
@@ -77,4 +78,92 @@
     gap: 18px;
     margin-top: 30px;
     color: #81807E;
+    list-style: none;
+}
+.footer-right {
+    flex:1;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-menu-item {
+    align-self: start;
+}
+.footer-menu-subscribe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.soon {
+    border: 1px solid #333333;
+    border-radius: 6px;
+    padding: 4px 12px;
+    gap: 10px;
+    color: #CCCCCC;
+}
+.footer-right-newsletter {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 50px;
+    border-radius: 16px;
+    background-color: #1A1A1A;
+
+}
+.newsletter-subscribe {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    gap: 20px;
+}
+.newsletter-subscribe input {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #676665;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 18px 20px;
+}
+.footer-right-newsletter p:first-child {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #676665;
+    text-transform: uppercase;
+}
+.footer-right-newsletter p:last-child {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #F9EFEC;
+    text-transform: uppercase;
+}
+.footer-right-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    padding: 50px;
+    background-color: #1A1A1A;
+}
+.footer-bottom-left {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #B3B3B2;
+    font-family: "Roboto Mono";
+}
+.footer-bottom-right {
+    gap: 11px;
+    display: flex;
+}
+.footer-bottom-right p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #B3B3B2;
+    font-family: "Roboto Mono";
 }

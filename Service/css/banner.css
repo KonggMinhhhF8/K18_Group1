@@ -6,14 +6,14 @@
     gap: 20px;
 }
 .banner-left {
-    padding: 100px 50px 180px 50px;
+    padding: 100px 50px 30px 50px;
     background-color: #1A1A1A;
     border-radius: 20px;
-    align-content: flex-start;
     width: 70%;
+    display: flex;
+    flex-direction: column;
 }
 .banner-right {
-    align-content: flex-end;
     width: 30%;
 }
 .banner-title {
@@ -33,6 +33,7 @@
     border-radius: 20px;
     background-image: url('../image/Banner.png');
     background-size: cover;
+    align-items: center;
     background-position: center;
     background-color: rgba(206, 125, 99, 0.8);
     background-blend-mode: multiply;
@@ -96,9 +97,12 @@
     gap: 10px;
     align-self: flex-end;
 }
-.banner-image {
+.vector-banner {
+    position: absolute;
+    left: 30px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-
+    gap: 10px;
+    justify-content:left;
+    align-self: end;
 }
